@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.pagination {
+  display: flex;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.pagination__element {
+  padding: 3px 8px;
+  color: #808080;
+  margin-right: 3px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.pagination__element_active {
+  color: #000000;
+}
+
+.panel-add {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
